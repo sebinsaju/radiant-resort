@@ -31,15 +31,17 @@ const Header = () => {
 							<li className="nav-item">
 								<Link href="/restaurant"><a className="nav-link" >Restaurant</a></Link>
 							</li>
-							<li className="nav-item">
+							{/* <li className="nav-item">
 								<a className="nav-link" >Day Outing</a>
-							</li>
+							</li> */}
 							<li className="nav-item">
 								<Link href="/contact"><a className="nav-link" >Contact Us</a></Link>
 							</li>
-							{/* <li className="nav-item">
-						<a className="nav-link" >Gallery</a>
-					</li> */}
+							<li className="nav-item">
+								<Link href="/gallery">
+									<a className="nav-link" >Gallery</a>
+								</Link>
+							</li>
 						</ul>
 						{/* <a href="#booking" className="ml-3 book btn btn-secondary btn-style">Book Now</a> */}
 					</div>

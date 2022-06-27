@@ -25,10 +25,10 @@ const Footer = () => {
 
                                 <ul>
                                     <h6 className="footer-title-29">Useful Links</h6>
-                                    <li><a>Home</a></li>
-                                    <li><a>Rooms</a></li>
-                                    <li><a> Packages</a></li>
-                                    <li><a>Contact us</a></li>
+                                    <li><Link href="/"><a>Home</a></Link></li>
+                                    <li><Link href="/rooms"><a>Rooms</a></Link></li>
+                                    <li><Link href="/packages"><a> Packages</a></Link></li>
+                                    <li><Link href="/contact"><a>Contact us</a></Link></li>
                                 </ul>
                             </div>
                             {/* <div className="col-lg-3 col-md-6 col-sm-5 footer-list-29 footer-3 mt-lg-0 mt-5">
