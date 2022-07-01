@@ -19,33 +19,33 @@ const Header = () => {
 					{toggle && <div className='mobile-menu'>
 						<ul className="navbar-nav ml-auto">
 							<li className="nav-item">
-								<Link href="/rooms"><a className="nav-link">Rooms</a></Link>
+								<Link href="/rooms"><a className="nav-link" onClick={toggler}>Rooms</a></Link>
 							</li>
 							<li className="nav-item">
-								<Link href="/packages"><a className="nav-link" >Packages</a></Link>
+								<Link href="/packages"><a className="nav-link" onClick={toggler}>Packages</a></Link>
 							</li>
 							<li className="nav-item">
-								<Link href="/meetings"><a className="nav-link" >Meetings</a></Link>
+								<Link href="/meetings"><a className="nav-link" onClick={toggler}>Meetings</a></Link>
 							</li>
 							<li className="nav-item">
-								<Link href="/restaurant"><a className="nav-link" >Restaurant</a></Link>
+								<Link href="/restaurant"><a className="nav-link" onClick={toggler}>Restaurant</a></Link>
 							</li>
 							<li className="nav-item">
 								<Link href="/day-outing">
-									<a className="nav-link" >Day Outing</a>
+									<a className="nav-link" onClick={toggler}>Day Outing</a>
 								</Link>
 							</li>
 							<li className="nav-item">
 								<Link href="/facilities">
-									<a className="nav-link" >Facilities</a>
+									<a className="nav-link" onClick={toggler}>Facilities</a>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link href="/contact"><a className="nav-link" >Contact Us</a></Link>
+								<Link href="/contact"><a className="nav-link" onClick={toggler}>Contact Us</a></Link>
 							</li>
 							<li className="nav-item">
 								<Link href="/gallery">
-									<a className="nav-link" >Gallery</a>
+									<a className="nav-link" onClick={toggler}>Gallery</a>
 								</Link>
 							</li>
 						</ul>
