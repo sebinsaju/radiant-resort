@@ -2,9 +2,11 @@ import React from 'react'
 import Slider from "react-slick";
 const BannerSlider = () => {
     const DATA = [
-        { image: "/banner/banner-1.jpg", text: "" },
         { image: "/banner/banner-2.jpg", text: "" },
-        { image: "/banner/banner-3.jpg", text: "" },
+        { image: "/gallery/5.jpg", text: "" },
+        { image: "/banner/banner-1.jpg", text: "" },
+        { image: "/gallery/7.jpg", text: "" },
+        { image: "/gallery/27.jpg", text: "" },
         { image: "/banner/banner-4.jpg", text: "" },
     ];
     var settings = {

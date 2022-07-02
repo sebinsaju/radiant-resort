@@ -10917,6 +10917,9 @@ div#small-dialog iframe {
 /* animate out */
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
   opacity: 0; }
+  .number-list{
+    border: 1px solid red;
+  }
 .facility-slider{
   height: 400px;
 }
