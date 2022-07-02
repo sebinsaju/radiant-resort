@@ -3,13 +3,10 @@ import React from 'react'
 const DayOuting = () => {
     const DATA = [
         {
-            title: "Package 1", desc: "INR 850+ taxes per person", incl: [{ item: "Welcome Drink" }, { item: "Buffet Lunch" }, { item: "Breakfast" },]
+            title: "Package 1", desc: "INR 1050+ taxes per person", incl: [{ item: "Welcome Drink" }, { item: "Breakfast" }, { item: "Buffet Lunch" }, { item: "High Tea and Snacks" },]
         },
-        {
-            title: "Package 2", desc: "INR 1050+ taxes per person", incl: [{ item: "Welcome Drink" }, { item: "Breakfast" }, { item: "Buffet Lunch" }, { item: "High Tea and Snacks" },]
-        },
-        { title: "Package 3", desc: "INR 1450+ taxes per person", incl: [{ item: "Welcome Drink" }, { item: "Breakfast" }, { item: "Buffet Lunch" }, { item: "High Tea and Snacks" }, { item: "Dinner" }] },
-        { title: "Package 4", desc: "INR 6000 + including taxes", incl: [{ item: "Welcome Drink" }, { item: "Buffet Lunch" }, { item: "High Tea and Snacks" }, { item: "Dinner" }] },
+        { title: "Package 2", desc: "INR 1450+ taxes per person", incl: [{ item: "Welcome Drink" }, { item: "Breakfast" }, { item: "Buffet Lunch" }, { item: "High Tea and Snacks" }, { item: "Dinner" }] },
+        { title: "Package 3", desc: "INR 6000 + including taxes", incl: [{ item: "Welcome Drink" }, { item: "Buffet Lunch" }, { item: "High Tea and Snacks" }, { item: "Dinner" }] },
     ]
     const data = { title: "Utsav Restaurant at Radiant Resort near Bangalore", desc: "Utsav Restaurant at Radiant Resort Bangalore is an open air multi-cuisine restaurant serving a wide spread of choicest Indian and Chinese cuisines, the taste of which will linger in your mouth for a long time. It is the perfect place for food freaks to soak in the natural warmth and savour our sumptuous dishes.", image: "/restaurant/res.jpg" };
     return (
