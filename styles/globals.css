@@ -10920,6 +10920,12 @@ div#small-dialog iframe {
   .number-list{
     border: 1px solid red;
   }
+  .home-gallery{
+    background-color: #efefef;
+  }
+  .home-gallery img{
+    max-width: 100%;
+  }
 .facility-slider{
   height: 400px;
 }
@@ -10979,7 +10985,9 @@ div#small-dialog iframe {
   .welcome-left h3 {
     font-size: 35px;
     line-height: 45px; } }
-
+    @media (max-width: 768px) {
+      .image-large {
+        padding-top: 24px; } }
 @media (max-width: 736px) {
   .welcome-left h3 {
     font-size: 30px;

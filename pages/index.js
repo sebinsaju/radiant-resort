@@ -5,6 +5,7 @@ import Booking from '../components/booking'
 import Experience from '../components/experience'
 import HomeAbout from '../components/home-about'
 import HomeFacilities from '../components/home-facilities'
+import HomeGallery from '../components/home-gallery'
 import LogoSlider from '../components/logo-slider'
 import Quotation from '../components/quotation'
 import styles from '../styles/Home.module.css'
@@ -21,6 +22,7 @@ export default function Home() {
         <Quotation />
         {/* <LogoSlider /> */}
         <HomeFacilities />
+        <HomeGallery />
       </div>
     </div>
   )
