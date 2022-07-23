@@ -14,7 +14,7 @@ const Testimonial = ({details}) => {
         </div>
       </div>
         <div className={style.user_review}>
-          "{details.review}"
+          {details.review}
         </div>
     </div>
   );
