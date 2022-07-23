@@ -8,6 +8,7 @@ import HomeFacilities from '../components/home-facilities'
 import HomeGallery from '../components/home-gallery'
 import LogoSlider from '../components/logo-slider'
 import Quotation from '../components/quotation'
+import TestimonialSection from '../components/testimonial-section'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         {/* <LogoSlider /> */}
         <HomeFacilities />
         <HomeGallery />
+        <TestimonialSection />
       </div>
     </div>
   )

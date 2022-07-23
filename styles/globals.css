@@ -10926,6 +10926,9 @@ div#small-dialog iframe {
   .home-gallery img{
     max-width: 100%;
   }
+  .slick-slider.slick-initialized{
+    width: 100%;
+  }
 .facility-slider{
   height: 400px;
 }

@@ -1,0 +1,36 @@
+.testimonial_card {
+  padding: 20px;
+  -webkit-box-shadow: 4px 5px 23px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 5px 23px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 5px 23px -12px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  width: 100%;
+  //   height: 300px;
+  .avatar_container {
+    padding-right: 20px;
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+  }
+  .user_details {
+    .user_name {
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .user_desig {
+      color: rgb(119, 119, 119);
+    }
+  }
+  .user_review {
+    color: rgb(94, 94, 94);
+    font-style: italic;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
