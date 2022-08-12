@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseURL = 'http://api-radiant.herokuapp.com/';
+const baseURL = 'https://api-radiant.herokuapp.com/';
 export const instance = axios.create({
     baseURL: baseURL,
     headers: {
