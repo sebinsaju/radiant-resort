@@ -1,4 +1,5 @@
 import React from 'react'
+import { bookingLink } from '../../constants';
 
 const BestRooms = () => {
     return (
@@ -26,7 +27,7 @@ const BestRooms = () => {
                                     <li><span className="fa fa-bed"></span> 15sqft</li>
                                 </ul>
                                 <p>Spaciously built and elegantly furnished, Deluxe Rooms come with air conditioning and are the perfect retreat for the two of you.</p>
-                                <a href="#book" className="btn btn-style btn-primary mt-sm-4 mt-3">Book Now</a>
+                                <a href={bookingLink} className="btn btn-style btn-primary mt-sm-4 mt-3" target="_blank" rel="noreferrer">Book Now</a>
                             </div>
                         </div>
                     </div>
