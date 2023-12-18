@@ -93,7 +93,7 @@ const DayOuting = () => {
             </div>
             <div className="my-3 text-center">
               <strong>
-                <h5>NOTE : The taxes for Day Outing package is 5%</h5>
+                <h5>NOTE : The taxes for Day Outing package is 18%</h5>
               </strong>
             </div>
           </div>
